@@ -1,7 +1,7 @@
 /**
  * This file is part of LibLaserCut.
  * Copyright (C) 2011 - 2014 Thomas Oster <mail@thomas-oster.de>
- * Copyright (C) 2018 - 2020 Klaus Kämpf <kkaempf@suse.de>
+ * Copyright (C) 2018 - 2023 Klaus Kämpf <kkaempf@gmail.com>
  *
  * LibLaserCut is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -31,6 +31,7 @@ import java.util.LinkedList;
 public class FloatMinMaxPowerSpeedFrequencyProperty extends FloatPowerSpeedFrequencyProperty {
 
   private float min_power = 10.0f;
+  private float speed = 500.0f;
   private static final String MIN_POWER = "min power";
 
   public FloatMinMaxPowerSpeedFrequencyProperty()
